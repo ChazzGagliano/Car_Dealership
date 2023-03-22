@@ -23,7 +23,7 @@ class Employee
   end
 
   def annual_raise
-    annual_raise = (salary * 0.05) + salary
+    @salary *= 1.05
   end
 
 end
