@@ -22,6 +22,10 @@ class Employee
     @name = new_name
   end
 
+  def annual_raise
+    annual_raise = (salary * 0.05) + salary
+  end
+
 end
 
 employee = Employee.new("John", "Stockton", 90_000)
@@ -30,5 +34,6 @@ p employee
 
 employee.name = ("Jim")
 
-p employee
+p employee.annual_raise
+
 
