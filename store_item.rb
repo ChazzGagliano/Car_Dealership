@@ -21,7 +21,7 @@ class Store
   end
 
   def print_info
-  p "#{@make}, #{color} is from #{year}. It is #{price}.
+  p "#{@make}, #{@color} is from #{year}. It is #{price}.
   "
   end
   
