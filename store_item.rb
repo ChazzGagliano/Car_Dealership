@@ -28,7 +28,7 @@ class Store
   
 end
 
-car1 = Store.new(
+car1 = Store.new (
   {
     :make => "Honda"
     :color => "Blue"
