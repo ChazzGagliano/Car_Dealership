@@ -1,0 +1,92 @@
+# 1. Write a program that uses variables to store a first and last name, then prints the full name in one line using string concatenation (the + operator).
+
+# x = "Chazz "
+
+# y = "Gagliano"
+
+# p x + y
+
+# 2. Write a program that uses variables to store a first and last name, then prints the full name in one line using string interpolation (the #{} operator).
+
+# x = "chazz"
+# y = "gagliano"
+
+# p "#{x } #{y}" 
+
+
+# 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
+
+# p "Enter a word"
+# word =  gets.chomp.to_s
+# if word == "marco"
+#   p "polo"
+# else
+#   p "error"
+
+# end
+
+
+# 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
+
+# color1 = "blue"
+# color2 = "green"
+# color3 = "yellow"
+
+# p "The colors are " + color1 + ", " + color2 + " and, " + color3 + "."
+
+# 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
+
+# color1 = "blue"
+# color2 = "green"
+# color3 = "yellow"
+
+# p "The colors are #{color1}, #{color2}, and #{color3}."
+
+# 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
+
+# p "Enter Santa"
+# word = gets.chomp.to_s
+
+# if word == "Santa"
+#   p "Ho Ho Ho"
+
+# else 
+#   p "You're not Santa!" 
+
+# end
+
+# 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
+
+# book = "Harry Potter: The Sorcerers Stone"
+# author = "J.K Rowling"
+
+# p "The book, " + book + " was written by " + author + "."
+
+
+# 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
+
+# book = "Harry Potter: The Sorcerers Stone"
+# author = "J.K Rowling"
+
+# p "The book, #{book} was written by #{author}."
+
+# 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
+
+# p "Enter a password:"
+# password = gets.chomp.to_s
+
+# if password == "Joshua"
+#   p "Shall we play a game?"
+
+# else
+#   p "Access denied"
+
+# end
+
+# 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
+
+# city1 = "New York City"
+# city2 = "Chicago"
+# city3 = "Los Angeles"
+
+# p "The three most popular cities in America are... " + city1 + ", " + city2 + ", and " + city3 + "."
